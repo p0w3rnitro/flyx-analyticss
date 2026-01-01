@@ -25,6 +25,10 @@ bindings = [
   { name = "ANALYTICS_DO", class_name = "AnalyticsDO" }
 ]
 
+[[durable_objects.bindings]]
+name = "ANALYTICS_DO"
+class_name = "AnalyticsDO"
+
 [[migrations]]
 tag = "v1"
 new_classes = ["AnalyticsDO"]
